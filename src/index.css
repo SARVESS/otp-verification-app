@@ -7,7 +7,121 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.App {
+  background: grey;
 }
+
+.signin-div {
+  position: relative;
+  width: 375px;
+  height: 700px;
+  background: #FFFFFF;
+  margin: auto;
+}
+
+.logo-div {
+  position: absolute;
+  width: 264px;
+  height: 50px;
+  left: calc(50% - 214px/2 - 0.5px);
+  top: calc(50% - 50px/2 - 225px);
+  background: url(./images/logo-1.png);
+  background-repeat: no-repeat;
+}
+
+.welcome-div {
+   position: absolute;
+   width: 237px;
+   height: 67px;
+   left: 70px;
+   top: 220px;
+}
+
+.welcome-back-para {
+  position: absolute;
+  width: 174px;
+  height: 28px;
+  left: calc(50% - 174px/2 + 0.5px);
+  top: calc(50% - 28px/2 - 75px);
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.welcome-sign-para {
+  position: absolute;
+width: 237px;
+height: 19px;
+left: calc(50% - 237px/2 + 1px);
+top: calc(50% - 19px/2 - 31.5px);
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #666666;
+}
+
+
+.input-div {
+   position: absolute;
+   width: 300px;
+   height: 67px;
+   left: 80px;
+   top: 300px;
+} 
+
+.inp-tag {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #FFD37D;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.terms-para {
+ position: absolute;
+ width: 343px;
+ height: 28px;
+ left: calc(50% - 343px/2);
+ top: calc(50% - 28px/2 + 30px);
+
+ font-family: sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 12px;
+ line-height: 14px;
+ text-align: center;
+
+ color: #999999;
+}
+
+.btn-div {
+  position: absolute;
+  width: 224px;
+  height: 36px;
+  left: calc(50% - 224px/2 - 0.5px);
+  top: calc(50% - 36px/2 + 180px);
+  
+  background: #ae8b56;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.span-btn {
+  margin-top: 6px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+ 
+
